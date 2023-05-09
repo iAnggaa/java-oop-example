@@ -1,3 +1,4 @@
+// ini adalah conmit pertama saya di GitHub!!
 import java.util.Scanner;
 
 class Main {

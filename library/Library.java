@@ -19,7 +19,7 @@ abstract class Library {
 		return this.members.indexOf(member);
 	}
 
-//	ngambil id member
+//	id member
 	protected Member getMemberById(String id) {
 		for (Member member : this.members) {
 		  if (member.getId().equals(id)) {
@@ -29,7 +29,7 @@ abstract class Library {
 		return null;
 	}
 	
-//	ngambil id book
+//	id book
 	protected Book getBookById(String id) {
 	    for (Book book : this.books) {
 	      if (book.getId().equals(id)) {

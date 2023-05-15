@@ -146,7 +146,7 @@ public class main {
 	    library.receiveBook(bookId, memberId);
 	  }
 	  
-	//idbook tidak sama dengan try catch
+	//idbook tidak sama, menggunakan try catch
 	  public static void addBook() {
 		  Book book = new Book();
 		  
